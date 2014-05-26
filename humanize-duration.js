@@ -108,6 +108,26 @@ http://git.io/j0HgmQ
       minute: function(c) { return (c === 1) ? "minuutti" : "minuuttia"; },
       second: function(c) { return (c === 1) ? "sekunti" : "sekuntia"; },
       millisecond: function(c) { return (c === 1) ? "millisekunti" : "millisekuntia"; }
+    },
+    sv: {
+      year: function() { return "år"; },
+      month: function(c) { return (c === 1) ? "månad" : "månader"; },
+      week: function(c) { return (c === 1) ? "vecka" : "veckor"; },
+      day: function(c) { return (c === 1) ? "dag" : "dagar"; },
+      hour: function(c) { return (c === 1) ? "timme" : "timmar"; },
+      minute: function(c) { return (c === 1) ? "minut" : "minuter"; },
+      second: function(c) { return (c === 1) ? "sekund" : "sekunder"; },
+      millisecond: function(c) { return (c === 1) ? "millisekund" : "millisekunder"; }
+    },
+    nl: {
+      year: function() { return "jaar"; },
+      month: function(c) { return (c === 1) ? "maand" : "maanden"; },
+      week: function(c) { return (c === 1) ? "week" : "weken"; },
+      day: function(c) { return (c === 1) ? "dag" : "dagen"; },
+      hour: function(c) { return (c === 1) ? "uur" : "uren"; },
+      minute: function(c) { return (c === 1) ? "minuut" : "minuuten"; },
+      second: function(c) { return (c === 1) ? "seconde" : "seconden"; },
+      millisecond: function(c) { return (c === 1) ? "milliseconde" : "milliseconden"; }
     }
   };
 

@@ -48,6 +48,7 @@ Supported languages:
 * Spanish (es)
 * Finnish (fi)
 * Swedish (sv)
+* Dutch (nl)
 
 Lovingly made by [Evan Hahn](http://evanhahn.com/) with language support by [Martin Prins](https://github.com/magarcia). Thanks to [Filipi Siqueira](https://github.com/filipi777) for Portuguese support, [Peter Rekdal Sunde](https://github.com/peters) for Norwegian support, and [Michał Janiec](https://github.com/mjjaniec) for Polish support.
 
