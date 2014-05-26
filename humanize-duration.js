@@ -98,6 +98,16 @@ http://git.io/j0HgmQ
       minute: function(c) { return ["minuta", "minuty", "minuty", "minut"][getPolishForm(c)]; },
       second: function(c) { return ["sekunda", "sekundy", "sekundy", "sekund"][getPolishForm(c)]; },
       millisecond: function(c) { return ["milisekunda", "milisekundy", "milisekundy", "milisekund"][getPolishForm(c)]; }
+    },
+    fi: {
+      year: function(c) { return (c === 1) ? "vuosi" : "vuotta"; },
+      month: function(c) { return (c === 1) ? "kuukausi" : "kuukautta"; },
+      week: function(c) { return (c === 1) ? "viikko" : "viikkoa"; },
+      day: function(c) { return (c === 1) ? "päivä" : "päivää"; },
+      hour: function(c) { return (c === 1) ? "tunti" : "tuntia"; },
+      minute: function(c) { return (c === 1) ? "minuutti" : "minuuttia"; },
+      second: function(c) { return (c === 1) ? "sekunti" : "sekuntia"; },
+      millisecond: function(c) { return (c === 1) ? "millisekunti" : "millisekuntia"; }
     }
   };
 
